@@ -22,6 +22,16 @@
 
     <link rel="stylesheet" media="screen and (max-width:1024px)" href="css/mq-1024.css">
     <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mq-768.css">
+    <style>
+        /* 모바일 버전 때 스크롤로 인해 화면 가리는 부분을 스크롤을 안 나타나게 처리하여 해결함 */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        body {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
     <title>louis poulsen</title>
 </head>
 <body>
